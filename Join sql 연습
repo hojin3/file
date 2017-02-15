@@ -1,0 +1,9 @@
+--7. 사원들의 이름,부서번호,부서이름을 출력하라.(ORACLE JOIN, ANSI JOIN, NATRUAL JOIN,JOIN~USING)
+
+--8. 수당을 받는 사원의 이름,직위,근무지를 출력하라.(ORACLE JOIN, ANSI JOIN, NATRUAL JOIN,JOIN~USING)
+
+--9. DALLAS에서 근무하는 사원의 이름,직위,근무지 출력하라.(ORACLE JOIN, ANSI JOIN, NATRUAL JOIN,JOIN~USING)
+
+--10. 이름에 A가 들어가 있는 사원의 이름,부서명을 출력하라.(ORACLE JOIN, ANSI JOIN, NATRUAL JOIN,JOIN~USING)
+
+--11. 30번 부서의 사원들의 이름,직위,부서위치를 출력하라.(ORACLE JOIN, ANSI JOIN, NATRUAL JOIN,JOIN~USING)
