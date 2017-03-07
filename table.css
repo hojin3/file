@@ -1,0 +1,53 @@
+#table_content{
+    border-collapse: collapse;
+    border-top-width: 2px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #333333;
+    border-bottom-color: #333333;
+}
+#table_content th,td{
+    /*
+    태그 전체의 크기
+        -전체 너비 :  width+2*(margin+border+padding)
+        -전체 높이 :  height+2*(margin+border+padding)
+     */
+    margin:0px;
+    padding: 8px;
+    font-size: 9pt;
+}
+
+#table_content th{
+    background-color: #408080;
+    color: #ffffff;
+    border-bottom-width: 1px;
+    border-bottom-color: #333333;
+}
+
+#table_content td{
+    border-bottom-width: 1px;
+    border-bottom-color: #666666;
+    border-top-width: 1px;
+    border-top-color: #666666;
+    border-top-style: solid;
+    border-bottom-style: dotted;
+}
+#table_content .dataTr:hover{
+    background-color: #ffcc66;
+    cursor: pointer;
+    cursor: hand;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
