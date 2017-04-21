@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+	Log4J : 가장 널리 사용되고 있는 로깅 프레임워크.
+		-설정하기
+			<appender></appender> -Console
+			layout : 로그 메시지의 포맷을 지정하는 것.
+					 PattenLayout	
+ -->
+ <Configuration>
+ 	<Appenders>
+ 		<Console name="console" target="SYSTEM_OUT">
+ 			<PattenLayout patten="%5p [%t] - %m%n"/>
+ 		</Console>
+ 	</Appenders>
+ 	<Loggers>	
+ 		<Logger name="resources.mybatis.ShopMapper" level="trace"
+ 			additivity="false">
+ 			<AppenderRef ref="console"/>
+ 		</Logger>
+ 		<Root level="debug">
+ 			<AppenderRef ref="console"/>
+ 		</Root>
+ 	</Loggers>
+ </Configuration>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
