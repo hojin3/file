@@ -2,30 +2,38 @@
 	border-collapse: collapse;
 	border-top-width: 2px;
 	border-bottom-width: 1px;
-	border-top-style: solid;
+ 	border-top-style: solid; 
 	border-bottom-style: solid;
-	border-top-color: #333;
-	border-bottom-color: #333;
+ 	border-top-color: #000; 
+	border-bottom-color: #000;
 	
 }
 #table_content th,td{
 	margin: 0px;
 	padding: 8px;
 	font-size: 9pt;
+	color:#000;
 }
-#table_content th{
-	background-color: #999;
-	color: #fff;
-	border-bottom-width: 1px;
-	border-bottom-color: #333;
+#table_content th {
+    background-color: #666;
+    color: #fff;
+    border-bottom-width: 1px;
+    border-bottom-color: #333;
+    text-shadow: 0.1em 0.1em 0.15em CYAN; 
+    font-style: italic;
 }
+
 #table_content td{
-	border-bottom-width: 1px;
-	border-bottom-color: #666;
-	border-bottom-style: dotted;
+ 	border-bottom-width: 1px; 
+ 	border-bottom-color: #000; 
+	border-top-width: 1px;
+	border-top-color: #000;
+	border-top-style: solid;
+ 	border-bottom-style: dotted; 
+ 	color:#000;
 }
 #table_content .dataTr:HOVER {
-	background-color: #FC6;
+	background-color: #EDEDED;
 	cursor: pointer;
 	cursor: hand;
 }
@@ -37,11 +45,23 @@
 }
 #table_content a{
 	text-decoration: none;
-	color:black;
+	color:#000;
+	/* text-shadow: 0.1em 0.1em 0.15em #666; */ 
 }
 #table_content a:HOVER{
 	text-decoration: underline;
 	color:green;
+	/* text-shadow: 0.1em 0.1em 0.15em #666; */
+}
+a.btn{
+	text-decoration: none;
+	color:#000;
+	text-shadow: 0.1em 0.1em 0.15em #666;
+}
+a.btn:HOVER{
+	text-decoration: underline;
+	color:green;
+	text-shadow: 0.1em 0.1em 0.15em #666;
 }
 #abc,
 img,
@@ -50,11 +70,16 @@ input[type="button"],
 input[type="text"], 
 select, 
 textarea, 
-input[type="password"] {
+input[type="password"],table{
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
     border-radius: 12px;
-    border: 1px #CCC solid;
+    /* border: 1px #CCC solid; */
+}
+#mytitle { 
+  text-shadow: 0.1em 0.1em 0.15em #666; 
+  color:#000;
+  font-style: italic;
 }
 
 
