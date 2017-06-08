@@ -12,15 +12,13 @@
 	margin: 0px;
 	padding: 8px;
 	font-size: 9pt;
-	color:#000;
+	color:#000000;
 }
 #table_content th {
-    background-color: #666;
-    color: #fff;
-    border-bottom-width: 1px;
-    border-bottom-color: #333;
-    text-shadow: 0.1em 0.1em 0.15em CYAN; 
-    font-style: italic;
+/*     background-color: #408080; */
+/*     color: #fff; */
+/*     border-bottom-width: 1px; */
+/*     border-bottom-color: #333; */
 }
 
 #table_content td{
@@ -30,10 +28,10 @@
 	border-top-color: #000;
 	border-top-style: solid;
  	border-bottom-style: dotted; 
- 	color:#000;
+ 	color:#000000;
 }
 #table_content .dataTr:HOVER {
-	background-color: #EDEDED;
+	background-color: #FC6;
 	cursor: pointer;
 	cursor: hand;
 }
@@ -45,23 +43,11 @@
 }
 #table_content a{
 	text-decoration: none;
-	color:#000;
-	/* text-shadow: 0.1em 0.1em 0.15em #666; */ 
+	color:black;
 }
 #table_content a:HOVER{
 	text-decoration: underline;
 	color:green;
-	/* text-shadow: 0.1em 0.1em 0.15em #666; */
-}
-a.btn{
-	text-decoration: none;
-	color:#000;
-	text-shadow: 0.1em 0.1em 0.15em #666;
-}
-a.btn:HOVER{
-	text-decoration: underline;
-	color:green;
-	text-shadow: 0.1em 0.1em 0.15em #666;
 }
 #abc,
 img,
@@ -70,16 +56,11 @@ input[type="button"],
 input[type="text"], 
 select, 
 textarea, 
-input[type="password"],table{
+input[type="password"] {
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
     border-radius: 12px;
-    /* border: 1px #CCC solid; */
-}
-#mytitle { 
-  text-shadow: 0.1em 0.1em 0.15em #666; 
-  color:#000;
-  font-style: italic;
+    border: 1px #CCC solid;
 }
 
 
